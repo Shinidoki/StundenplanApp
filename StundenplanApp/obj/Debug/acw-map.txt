@@ -1,0 +1,4 @@
+StundenplanApp.MainActivity, StundenplanApp;md5a2e8fe2b3131e209e9fc5f2e6b725b19.MainActivity
+StundenplanApp.MainActivity, StundenplanApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a2e8fe2b3131e209e9fc5f2e6b725b19.MainActivity
+StundenplanApp.MainActivity;md5a2e8fe2b3131e209e9fc5f2e6b725b19.MainActivity
+stundenplanapp.MainActivity;md5a2e8fe2b3131e209e9fc5f2e6b725b19.MainActivity
