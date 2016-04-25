@@ -13,7 +13,6 @@ using Android.Widget;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using StundenplanApp.Models;
 
 //Install-Package Microsoft.Net.Http
 namespace StundenplanApp
@@ -23,7 +22,7 @@ namespace StundenplanApp
     {
         HttpClient client;
         private static String RestUrl = "http://developer.xamarin.com:8081/api/todoitems{0}";
-        public List<School> Schools { get; private set; }
+        public List<Object> Schools { get; private set; }
 
         public RestService ()
         {
