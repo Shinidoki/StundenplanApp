@@ -83,10 +83,7 @@ namespace StundenplanApp
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
-			
-			// aapt resource value: 0x7f020001
-			public const int logo = 2130837505;
+			public const int logo = 2130837504;
 			
 			static Drawable()
 			{
@@ -101,32 +98,29 @@ namespace StundenplanApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080007
-			public const int classTextBox = 2131230727;
+			// aapt resource value: 0x7f080006
+			public const int classTextBox = 2131230726;
 			
-			// aapt resource value: 0x7f080001
-			public const int imageView1 = 2131230721;
-			
-			// aapt resource value: 0x7f080003
-			public const int linearLayout1 = 2131230723;
+			// aapt resource value: 0x7f080002
+			public const int linearLayout1 = 2131230722;
 			
 			// aapt resource value: 0x7f080000
 			public const int linearLayout2 = 2131230720;
 			
-			// aapt resource value: 0x7f080008
-			public const int saveButton = 2131230728;
-			
-			// aapt resource value: 0x7f080005
-			public const int spinner = 2131230725;
+			// aapt resource value: 0x7f080007
+			public const int saveButton = 2131230727;
 			
 			// aapt resource value: 0x7f080004
-			public const int textView1 = 2131230724;
+			public const int spinner = 2131230724;
 			
-			// aapt resource value: 0x7f080006
-			public const int textView2 = 2131230726;
+			// aapt resource value: 0x7f080003
+			public const int textView1 = 2131230723;
 			
-			// aapt resource value: 0x7f080002
-			public const int textView3 = 2131230722;
+			// aapt resource value: 0x7f080005
+			public const int textView2 = 2131230725;
+			
+			// aapt resource value: 0x7f080001
+			public const int toolbar = 2131230721;
 			
 			static Id()
 			{
@@ -143,6 +137,9 @@ namespace StundenplanApp
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int StundenplanAnsicht = 2130903041;
 			
 			static Layout()
 			{

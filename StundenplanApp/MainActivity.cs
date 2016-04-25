@@ -36,7 +36,7 @@ namespace StundenplanApp
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-
+            //Commit test kommentar
             Spinner schoolSpinner = FindViewById<Spinner>(Resource.Id.spinner);
             SelectedSchool = schoolSpinner.SelectedItem.ToString();
 
