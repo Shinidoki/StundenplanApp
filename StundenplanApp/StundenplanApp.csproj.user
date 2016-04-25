@@ -3,5 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <AndroidDesignerPreferredTheme>Theme.Custom</AndroidDesignerPreferredTheme>
+    <SelectedDevice>Xamarin_Android_API_23</SelectedDevice>
   </PropertyGroup>
 </Project>

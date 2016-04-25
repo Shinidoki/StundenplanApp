@@ -6,6 +6,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+//http://beta.der-onlinestundenplan.de/
+
 namespace StundenplanApp
 {
     [Activity(Label = "StundenplanApp", MainLauncher = true, Icon = "@drawable/logo", Theme = "@style/Theme.Custom")]
@@ -21,10 +23,17 @@ namespace StundenplanApp
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+            RestService test = new RestService();
+
+            var testOut = test.getDataFromRest("");
+
+            System.Diagnostics.Debug.WriteLine(testOut);
+
             // Get our button from the layout resource,
             // and attach an event to it
             Spinner spin = FindViewById<Spinner>(Resource.Id.spinner);
             var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.schools, Android.Resource.Layout.SimpleSpinnerItem);
+
 
             adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             spin.Adapter = adapter;
@@ -48,6 +57,8 @@ namespace StundenplanApp
             Toast.MakeText(this, string.Format("Schule: {0}; Klasse: {1}",SelectedSchool,SelectedClass), ToastLength.Short).Show();
 
         }
+
+
     }
 }
 
